@@ -13,7 +13,7 @@ RUN set -x \
         ca-certificates \
         curl \
         xmlstarlet \
- && curl -L 'https://downloads.plex.tv/plex-media-server/0.9.16.6.1993-5089475/plexmediaserver_0.9.16.6.1993-5089475_amd64.deb' -o plexmediaserver.deb \
+ && curl -L 'https://downloads.plex.tv/plex-media-server/1.1.3.2700-6f64a8d/plexmediaserver_1.1.3.2700-6f64a8d_amd64.deb' -o plexmediaserver.deb \
  && touch /bin/start \
  && chmod +x /bin/start \
  && dpkg -i plexmediaserver.deb \
